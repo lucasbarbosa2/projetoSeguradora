@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                   <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="clientes.html">Clientes</a>
+                </li>
+                <li>
+                    <a href="planos.html">Planos</a>
+                </li>
+                <li>
+                    <a href="veiculos.html">Veículos</a>
+                </li>
+                <li>
+                    <a href="oficinas.html">Oficinas</a>
+                </li>
+                <li>
+                    <a href="sobre.html">About</a>
+                </li>
+                <li>
+                    <a href="servicos.html">Services</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>ÁREA DAS OFICINAS</h1>
+                <p>Seja bem vindo(a) a seguradora do batatinha. Consulte os planos com um de nossos Agentes e agende já uma inspeção do seu veículo.</p>
+                <table>
+                    <th>Oficina</th><th>Telefone</th>
+                <tr>
+                    <td>Oficina do zezinho</td><td>(43) 9999-88888 </td>
+                </tr>
+                <tr>
+                    <td>Oficina do juquinha</td><td>(43) 7898-46876 </td>
+                </tr>
+                <tr>
+                    <td>Oficina do mario</td><td>(43) 4658-65786</td>
+                </tr>
+                <tr>
+                    <td>Oficina do joao</td><td>(43) 4687-56135 </td>
+                </tr>                                
+                </table>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
